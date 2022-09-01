@@ -1,0 +1,17 @@
+// The forecast today is 293 Kelvin. Thermometer.
+let kelvin = 0;
+/*converting kelvin to celsius.Let’s convert Kelvin to Celsius by subtracting 273 from the kelvin variable. Celsius is that Celsius is 273 degrees less than Kelvin.*/
+let celsius = kelvin - 273;
+// Fahrenheit = Celsius * (9/5) + 32. calculating fahrenheit and storing it in a var.
+let fahrenheit = celsius * (9/5) + 32;
+// getting fahrenheit rounded down.
+fahrenheit = Math.floor(fahrenheit);
+// loging the results on the console
+console.log(`The temperature is ${fahrenheit} degrees Farhenheit.`)
+//-----------------------------------------------------------------------------------
+// Convert celsius to the Newton scale using the equation below
+let celsiuss = 30;
+// converticonverting celsius to newton.
+let newton = celsiuss * (33/100);
+console.log(`The temperature is ${Math.floor(newton)} Newton`);
+//-----------------------------------------------------------------------------------
